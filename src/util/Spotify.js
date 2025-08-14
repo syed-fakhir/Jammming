@@ -1,6 +1,6 @@
 // src/util/Spotify.js
 const clientId = 'a8c1e70c2bc34e519f8322e8b5854841';
-const redirectUri = 'https://harmonious-rugelach-88a4fb.netlify.app/';
+const redirectUri = 'https://magical-moonbeam-855e65.netlify.app/';
 let accessToken;
 
 const Spotify = {
