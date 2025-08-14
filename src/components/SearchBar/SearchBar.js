@@ -10,7 +10,7 @@ function SearchBar({ onSearch }) {
   return (
     <div className="SearchBar">
       <input placeholder="Enter A Song Title" onChange={handleTermChange} />
-      <button onClick={search}>SEARCH</button>
+      <button className='SearchBarButton' onClick={search}>SEARCH</button>
     </div>
   );
 }
