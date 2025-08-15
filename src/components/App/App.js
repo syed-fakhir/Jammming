@@ -1,5 +1,5 @@
 // src/components/App/App.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
@@ -7,6 +7,11 @@ import Playlist from '../Playlist/Playlist';
 import Spotify from '../../util/Spotify';
 
 function App() {
+  useEffect(() => {
+    Spotify.handleRedirect();
+  }, []);
+
+  
   const [searchResults, setSearchResults] = useState([]);
   const [playlistName, setPlaylistName] = useState('New Playlist');
   const [playlistTracks, setPlaylistTracks] = useState([]);
