@@ -1,0 +1,31 @@
+.SearchResults {
+  background-color: #121212; /* Spotify dark */
+  border-radius: 8px;
+  padding: 20px;
+  width: 40%;
+  min-height: 80vh;
+  overflow-y: auto;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.SearchResults h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.SearchResults::-webkit-scrollbar {
+  width: 8px;
+}
+
+.SearchResults::-webkit-scrollbar-thumb {
+  background-color: #1db954; /* Spotify green */
+  border-radius: 4px;
+}
+
+.SearchResults::-webkit-scrollbar-track {
+  background: transparent;
+}

@@ -1,0 +1,15 @@
+.TrackList {
+  max-height: 400px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #1DB954 #121212;
+}
+
+.TrackList::-webkit-scrollbar {
+  width: 6px;
+}
+
+.TrackList::-webkit-scrollbar-thumb {
+  background-color: #1DB954;
+  border-radius: 3px;
+}

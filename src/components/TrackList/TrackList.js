@@ -1,5 +1,6 @@
 // src/components/TrackList/TrackList.js
 import React from 'react';
+import './TrackList.css';
 import Track from '../Track/Track';
 
 function TrackList({ tracks, onAdd, onRemove, isRemoval }) {
