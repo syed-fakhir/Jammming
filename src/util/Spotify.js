@@ -54,7 +54,7 @@ export const Spotify = {
   }
 };
 
-
+export default Spotify;
 
 
 
